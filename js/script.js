@@ -38,7 +38,7 @@ $(window).scroll(function() {
 const myText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const textArray = ["Semoga dihari yang spesial ini, jadi hari yang spesial buat kamu, Selalu di beri umur yang panjang dari yang maha kuasa, Semoga di tahun ini, menjadi pribadi yang lebih baik dari sebelum nya.. Sehat terus yaa!!! ammiiin .... "];
+const textArray = ["Semoga dihari yang spesial ini, jadi hari yang spesial buat kamu, Selalu di beri umur yang panjang dari yang maha kuasa, Semoga di tahun ini, menjadi pribadi yang lebih baik dari sebelum nya... Jangan Suka ngambek - ngambek lagi yaa sayangkuu..... Sehat terus yaa!!! ammiiin .... "];
 const typingDelay = 150;
 const newTextDelay = 2000;
 let textArrayIndex = 0;
