@@ -18,12 +18,15 @@ $(window).scroll(function() {
     // var baru = 368;
     // var baru2 = 390;
     console.log('yang ini');
-  } else if ( $(window).height() > 361 && $(window).height() <= 1090 ){
-    var kedua = 0;
-    var ketiga = 0;
+  } else if ( $(window).height() > 361 && $(window).height() <= 670 ){
+    var kedua = 310;
+    var ketiga = 613;
     // var baru = 300;
     // var baru2 = 350;
     console.log('itu');
+  } else {
+    var kedua = 0;
+    var ketiga = 0;
   }
   if (hScroll >= kedua && charIndex >= 224) {
     console.log('jalan')
