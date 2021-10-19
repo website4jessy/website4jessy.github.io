@@ -19,8 +19,8 @@ $(window).scroll(function() {
     // var baru2 = 390;
     console.log('yang ini');
   } else if ( $(window).height() > 361 && $(window).height() <= 1090 ){
-    var kedua = 310;
-    var ketiga = 613;
+    var kedua = 0;
+    var ketiga = 0;
     // var baru = 300;
     // var baru2 = 350;
     console.log('itu');
