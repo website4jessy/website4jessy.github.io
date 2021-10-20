@@ -19,20 +19,20 @@ $(window).scroll(function() {
     // var baru2 = 390;
     console.log('yang ini');
   } else if ( $(window).height() > 361 && $(window).height() <= 670 ){
-    var kedua = 310;
-    var ketiga = 613;
+    var kedua = 470;
+    var ketiga = 600;
     // var baru = 300;
     // var baru2 = 350;
     console.log('itu');
   } else {
-    var kedua = 0;
-    var ketiga = 0;
+    var kedua = 370;
+    var ketiga = 500;
   }
-  if (hScroll >= kedua && charIndex >= 224) {
+  if (hScroll >= kedua && charIndex >= 560) {
     console.log('jalan')
     $('.container.kedua').addClass('muncul')
   }
-  if (hScroll >= ketiga && charIndex >= 224) {
+  if (hScroll >= ketiga && charIndex >= 560) {
     console.log('jalan ketiga')
     $('.container.ketiga').addClass('muncul')
   }
