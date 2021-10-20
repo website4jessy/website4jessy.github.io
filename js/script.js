@@ -28,11 +28,11 @@ $(window).scroll(function() {
     var kedua = 370;
     var ketiga = 500;
   }
-  if (hScroll >= kedua && charIndex >= 560) {
+  if (hScroll >= kedua && charIndex >= 650) {
     console.log('jalan')
     $('.container.kedua').addClass('muncul')
   }
-  if (hScroll >= ketiga && charIndex >= 560) {
+  if (hScroll >= ketiga && charIndex >= 650) {
     console.log('jalan ketiga')
     $('.container.ketiga').addClass('muncul')
   }
