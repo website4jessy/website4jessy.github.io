@@ -41,7 +41,9 @@ $(window).scroll(function() {
 const myText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const textArray = ["Semoga dihari yang spesial ini, jadi hari yang spesial buat kamu, Selalu di beri umur yang panjang dari yang maha kuasa, Semoga di tahun ini, menjadi pribadi yang lebih baik dari sebelum nya... Jangan Suka ngambek - ngambek lagi yaa sayangkuu..... Sehat terus yaa!!! ammiiin .... "];
+// Smoga di umur yang sekarang Kamu makin dewasa , makin sayang kluarga sayang aku makin baik hati . trimakasih sudah tulus nemenin aku dari 0 udah sabar nemenin aku dari yg blm apa apa jadi apa apa smoga hubungan kita langgeng sampe kakek nenek . pokoknya doa yg trbaik untuk km . doain aku lancar melakukan pekerjaan ku ya nanti suatu saat nanti aku bakal bales ketulusan km syg . trbaik untuk km sygku akuu syggg kmmmmm  ❤
+
+const textArray = ["Semoga dihari yang spesial ini, jadi hari yang spesial buat kamu, Selalu di beri umur yang panjang dari yang maha kuasa, Semoga di tahun ini, menjadi pribadi yang lebih baik dari sebelum nya... ,makin sayang kluarga sayang aku makin baik hati . trimakasih sudah tulus nemenin aku dari 0 udah sabar nemenin aku dari yg blm apa apa jadi apa apa smoga hubungan kita langgeng sampe kakek nenek . pokoknya doa yg trbaik untuk km... Jangan Suka ngambek - ngambek lagi yaa sayangkuu..... Sehat terus yaa!!! Amiin...  doain aku lancar melakukan pekerjaan ku ya nanti suatu saat nanti aku bakal bales ketulusan km syg . trbaik untuk km sygku akuu syggg kmmmmm  ❤"];
 const typingDelay = 150;
 const newTextDelay = 2000;
 let textArrayIndex = 0;
